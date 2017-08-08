@@ -6,6 +6,11 @@
 
 File name: SetUpP4_1FAPI.m 
 
-**General guide to use code as is**
+**General Instructions**
 
-To use the code, you must have the Vantage Verasonics system, as well as the code 
+To use the code, you must have the Vantage Verasonics system, Matlab, as well as the package of matlab scripts provided through Verasonics installed onto your computer. Open matlab and set the Vantage folder (with all the Verasonics scripts) as your main folder. To use the P4-1 FAPI code as is, create a P4-1FAPI.mat file by running the setupP4-1FAPI script. Once the matfile is created and placed inside the folder called "matfiles", run VSX and use the P4-1FAPI code, while the appropriate transducer is attatched. 
+
+Several things can be modified with relative ease in the script to suite your needs.  
+* To change the depth of the image window, adjust the P.startDepth and P.endDepth. The numbers are represented in wavelength
+* Change Na to adjusted the number of acquisition angles (currently set to 7). The range of acquisition angles (curretly set -30 to 30 degrees) can be modified by changing the total angle of coverage (set to 60 in the same section)
+* In the 
