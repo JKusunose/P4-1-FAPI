@@ -6,5 +6,6 @@
 
 File name: SetUpP4_1FAPI.m 
 
-General guide to use code as is
+**General guide to use code as is**
+
 To use the code, you must have the Vantage Verasonics system, as well as the code 
